@@ -168,6 +168,22 @@
             background: rgba(255, 255, 255, 0.03);
         }
 
+        .teaser-wrap {
+            margin: 0 0 28px;
+            max-width: 720px;
+            border-radius: 18px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            background: rgba(2, 6, 23, 0.65);
+        }
+
+        .teaser-wrap video {
+            display: block;
+            width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+
         @media (max-width: 640px) {
             .card {
                 padding: 28px;
@@ -201,6 +217,19 @@
         sanften Hauswänden und einer ganz neuen Definition von "blockig".
     </p>
 
+    <h2 class="gallery-heading">Teaser-Video</h2>
+    <div class="teaser-wrap">
+        <video
+            id="teaser-video"
+            src="images/teaser.mp4"
+            controls
+            playsinline
+            autoplay
+            muted
+            aria-label="Teaser zum Minecraft-Update mit runden Blöcken"
+        ></video>
+    </div>
+
     <h2 class="gallery-heading">So sehen die neuen runden Formen aus</h2>
     <section class="gallery" aria-label="Vorschau runde Blockformen">
         <figure>
@@ -229,5 +258,12 @@
         Hinweis: Dieses Update könnte die Geometrie, dein Weltbild und möglicherweise einige Baupläne nachhaltig verändern.
     </div>
 </main>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var v = document.getElementById("teaser-video");
+        if (!v) return;
+        v.play().catch(function () {});
+    });
+</script>
 </body>
 </html>
