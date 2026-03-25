@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Stilisiert runder Steinblock">
+  <defs>
+    <radialGradient id="s" cx="36%" cy="30%" r="58%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="40%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </radialGradient>
+    <linearGradient id="sh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#020617"/>
+  <ellipse cx="400" cy="255" rx="120" ry="100" fill="url(#s)"/>
+  <ellipse cx="400" cy="320" rx="120" ry="30" fill="url(#sh)" opacity="0.9"/>
+</svg>

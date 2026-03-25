@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Stilisiert runder Holzblock">
+  <defs>
+    <radialGradient id="w" cx="40%" cy="28%" r="56%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="35%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </radialGradient>
+    <linearGradient id="wr" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#020617"/>
+  <ellipse cx="400" cy="255" rx="115" ry="96" fill="url(#w)"/>
+  <ellipse cx="400" cy="317" rx="115" ry="27" fill="url(#wr)" opacity="0.92"/>
+</svg>
